@@ -5,3 +5,5 @@ Site for MHS Developers Club
 https://paper.dropbox.com/doc/6aKjkv8a6xZfAEnIiYUKH
 ### Content and Features
 https://paper.dropbox.com/doc/Content-and-Features-qO6DLDzNECt9gqmrs7Nuq
+### Visual Design
+https://paper.dropbox.com/doc/Visual-Design-cWLdSuUoNiusIdTnuZdFq
