@@ -1,12 +1,15 @@
-@import "_includes/css/normalize.css";
-@import "_includes/css/spacing.css";
-@import "_includes/css/positioning.css";
-@import "_includes/css/images.css";
-@import "_includes/css/type.css";
-@import "_includes/css/borders.css";
-@import "_includes/css/background.css";
-@import "_includes/css/colors.css";
-@import "_includes/css/misc.css";
+---
+layout: none
+---
+{% include css/normalize.css %}
+{% include css/spacing.css %}
+{% include css/positioning.css %}
+{% include css/images.css %}
+{% include css/type.css %}
+{% include css/borders.css %}
+{% include css/background.css %}
+{% include css/colors.css %}
+{% include css/misc.css %}
 
 .maroon                 { color: #85144b; }
 .bg-maroon              { background: #85144b; }
