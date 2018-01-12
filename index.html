@@ -1,174 +1,102 @@
-<!DOCTYPE html>
-<html>
+---
+layout: page
+title: Home | MHS Developers Club
+---
+{% include signup-modal.html %}
+<div>
+    <section>
+        <h1>Short Description of MHS Developers Club</h1>
+        <p>Longer description about the club emphasising key points. List of activities run by the club and reasons the
+            user should sign up.</p>
+    </section>
+    <form>
+        <label>First Name</label>
+        <input>
+        <label>Last Name</label>
+        <input>
+        <label>Email</label>
+        <input>
+        <label>Student Code</label>
+        <input>
+        <button>Sign Up</button>
+    </form>
+</div>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home | MHS Developers Club</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="components/navbar.css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Serif+Pro" rel="stylesheet">
-    <!-- <script src="main.js"></script> -->
-</head>
-
-<body>
-    <div id="modal-window">
-        <div>
-            <!-- contains close button -->
-        </div>
-        <form>
-            <label>First Name</label>
-            <input>
-            <label>Last Name</label>
-            <input>
-            <label>Email</label>
-            <input>
-            <label>Student Code</label>
-            <input>
-            <button>Sign Up</button>
-        </form>
-    </div>
-
-    <header>
-        <nav>
-            <div>
-                <!-- contains menu checkbox for mobile -->
-            </div>
-            <img class="nav-logo" alt="logo of MHS Developers Club">
-            <div class="nav-menu">
-                <a>Home</a>
-                <a>Projects</a>
-                <a>Contact</a>
-                <button>Sign Up</button>
-            </div>
-        </nav>
-    </header>
-
+<section>
+    <h2>Projects</h2>
+    <p>Description of how team projects at MHS Developers Club works. Describe process, benefits, participants and other
+        information.</p>
     <div>
-        <section>
-            <h1>Short Description of MHS Developers Club</h1>
-            <p>Longer description about the club emphasising key points. List of activities run by the club and reasons the
-                user should sign up.</p>
-        </section>
-        <form>
-            <label>First Name</label>
-            <input>
-            <label>Last Name</label>
-            <input>
-            <label>Email</label>
-            <input>
-            <label>Student Code</label>
-            <input>
-            <button>Sign Up</button>
-        </form>
+        <div>
+            <img alt="Image of project">
+            <div>
+                <!-- shown on hover -->
+                <h3>Project Title</h3>
+                <p>Description of the team project. Describe its functionality, goals for the end user and development process.
+                    </p>
+                <a>Live</a>
+                <a>Repository</a>
+            </div>
+        </div>
+        <div>
+            <img alt="Image of project">
+            <div>
+                <!-- shown on hover -->
+                <h3>Project Title</h3>
+                <p>Description of the team project. Describe its functionality, goals for the end user and development process.
+                    </p>
+                <a>Live</a>
+                <a>Repository</a>
+            </div>
+        </div>
+        <div>
+            <img alt="Image of project">
+            <div>
+                <!-- shown on hover -->
+                <h3>Project Title</h3>
+                <p>Description of the team project. Describe its functionality, goals for the end user and development process.
+                    </p>
+                <a>Live</a>
+                <a>Repository</a>
+            </div>
+        </div>
     </div>
+    <a>See more projects</a>
+</section>
 
+<div>
     <section>
-        <h2>Projects</h2>
-        <p>Description of how team projects at MHS Developers Club works. Describe process, benefits, participants and other
-            information.</p>
-        <div>
-            <div>
-                <img alt="Image of project">
-                <div>
-                    <!-- shown on hover -->
-                    <h3>Project Title</h3>
-                    <p>Description of the team project. Describe its functionality, goals for the end user and development process.
-                        </p>
-                    <a>Live</a>
-                    <a>Repository</a>
-                </div>
-            </div>
-            <div>
-                <img alt="Image of project">
-                <div>
-                    <!-- shown on hover -->
-                    <h3>Project Title</h3>
-                    <p>Description of the team project. Describe its functionality, goals for the end user and development process.
-                        </p>
-                    <a>Live</a>
-                    <a>Repository</a>
-                </div>
-            </div>
-            <div>
-                <img alt="Image of project">
-                <div>
-                    <!-- shown on hover -->
-                    <h3>Project Title</h3>
-                    <p>Description of the team project. Describe its functionality, goals for the end user and development process.
-                        </p>
-                    <a>Live</a>
-                    <a>Repository</a>
-                </div>
-            </div>
-        </div>
-        <a>See more projects</a>
+        <img alt="Clipart about community">
+        <h3>Community</h3>
+        <p>Description of the community at MHS Developers Club. Describe different platforms for feedback/help - Weekly
+            meeting (time and location), Discourse forum and Facebook group.</p>
     </section>
-
-    <div>
-        <section>
-            <img alt="Clipart about community">
-            <h3>Community</h3>
-            <p>Description of the community at MHS Developers Club. Describe different platforms for feedback/help - Weekly
-                meeting (time and location), Discourse forum and Facebook group.</p>
-        </section>
-        <section>
-            <img alt="Clipart about competitions">
-            <h3>Competitions</h3>
-            <p>Description of the competitions held and participated by MHS Developers Club. Describe different competitions
-                (hackathons, ProgComp, etc.) we participate in and HackerRank comps we host.</p>
-        </section>
-        <section>
-            <img alt="Clipart about courses">
-            <h3>Courses</h3>
-            <p>Description of the courses run by MHS Developers Club. Describe different topics, difficulty level and structure.
-                Run by other students/club leaders.</p>
-        </section>
-    </div>
-
     <section>
-        <h3>Tagline (kind of) of the club</h3>
-        <ul>
-            <li>Gain real-world experience working in a team</li>
-            <li>Learn basic programming concepts from other students</li>
-            <li>Compete in various hackathons and events</li>
-            <li>Get help and feedback from our student community</li>
-        </ul>
-        <a>Sign Up</a>
+        <img alt="Clipart about competitions">
+        <h3>Competitions</h3>
+        <p>Description of the competitions held and participated by MHS Developers Club. Describe different competitions
+            (hackathons, ProgComp, etc.) we participate in and HackerRank comps we host.</p>
     </section>
-
     <section>
-        <h3>Want to learn more?</h3>
-        <a>Contact Us</a>
+        <img alt="Clipart about courses">
+        <h3>Courses</h3>
+        <p>Description of the courses run by MHS Developers Club. Describe different topics, difficulty level and structure.
+            Run by other students/club leaders.</p>
     </section>
+</div>
 
-    <footer>
-        <div>
-            <nav>
-                <a>Home</a>
-                <a>Projects</a>
-                <a>Contact</a>
-            </nav>
-        </div>
-        <div>
-            <h4>Join our student community</h4>
-            <a>Sign Up</a>
-        </div>
-        <div>
-            <div>
-                <!-- icons of websites and social platforms -->
-                <img>
-                <img>
-                <img>
-                <img>
-                <img>
-            </div>
-            <a>Privacy Policy</a>
-            <a>Terms of Use</a>
-            <p>Copyright &copy; 2018 MHS Developers Club. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
+<section>
+    <h3>Tagline (kind of) of the club</h3>
+    <ul>
+        <li>Gain real-world experience working in a team</li>
+        <li>Learn basic programming concepts from other students</li>
+        <li>Compete in various hackathons and events</li>
+        <li>Get help and feedback from our student community</li>
+    </ul>
+    <a>Sign Up</a>
+</section>
 
-</html>
+<section>
+    <h3>Want to learn more?</h3>
+    <a>Contact Us</a>
+</section>
