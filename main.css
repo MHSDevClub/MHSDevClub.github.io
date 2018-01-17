@@ -2,14 +2,10 @@
 layout: none
 ---
 {% include css/normalize.css %}
-{% include css/spacing.css %}
-{% include css/positioning.css %}
-{% include css/images.css %}
 {% include css/type.css %}
-{% include css/borders.css %}
-{% include css/background.css %}
-{% include css/colors.css %}
-{% include css/misc.css %}
+{% include css/layout.css %}
+{% include css/theming.css %}
+{% include css/defaults.css %}
 
 .maroon                 { color: #85144b; }
 .bg-maroon              { background: #85144b; }
