@@ -2,21 +2,7 @@
 layout: none
 ---
 {% include css/normalize.css %}
-{% include css/spacing.css %}
-{% include css/positioning.css %}
-{% include css/images.css %}
 {% include css/type.css %}
-{% include css/borders.css %}
-{% include css/background.css %}
-{% include css/colors.css %}
-{% include css/misc.css %}
-
-.maroon                 { color: #85144b; }
-.bg-maroon              { background: #85144b; }
-.bg-maroon-50           { background: rgba(133, 20, 75, 0.5); }
-.b--maroon              { border-color: #85144b; }
-
-.hover-maroon:hover     { color: #85144b; }
-.hover-bg-maroon:hover  { background: #85144b; }
-.bg-maroon-50:hover     { background: rgba(133, 20, 75, 0.5); }
-.hover-b--maroon:hover  { border-color: #85144b; }
+{% include css/layout.css %}
+{% include css/theming.css %}
+{% include css/defaults.css %}
